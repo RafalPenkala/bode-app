@@ -1,0 +1,91 @@
+.top-section {
+  border-bottom: 0.1rem solid #e1e1e1;
+}
+
+.App-navigation {
+    list-style-type: none;
+    max-width: 97.9rem;
+    height: 8rem;
+    border-left: 1px solid #efefef;
+    margin: 0 auto;
+  }
+  
+  .App-navigation > li
+  {
+    float: right;
+    display: block;
+    padding: 0;
+    margin: 3.5rem 2rem;
+    font: 1.4rem 'Myriad Pro', sans-serif;
+    font-weight: 500;
+  }
+
+  .App-navigation > li:not(:last-child)
+  {
+    float: left;
+  }
+
+  .App-navigation a
+  {
+    text-decoration: none;
+    color: #7c7c7c;  
+  }
+
+  .App-navigation-left a:hover
+  {
+    color: #ff801a;
+  
+    -webkit-transition: color 0.7s linear; /* Saf3.2+, Chrome */
+    -moz-transition: color 0.7s linear; /* FF3.7+ */
+      -o-transition: color 0.7s linear; /* Opera 10.5 */
+         transition: color 0.7s linear;
+         transition-timing-function: ease-in-out;
+  }
+  
+  .App-navigation-left a:after {
+    content: '';
+    display: block;
+    margin: auto; /* when turn off border goes from left to right*/
+    height: 0.2rem;
+    width: 0px;
+    transition: width 0.7s ease, background-color 1.7s ease;
+  }
+  
+  .App-navigation-left a:hover:after {
+    width: 50%;
+    background: #ffc79a;
+  }
+
+  .ui.avatar.image {
+    position: relative;
+    top: -0.5rem;
+  }
+
+
+  @media screen and (max-width: 48em)
+  {
+    #nav .dropdown-menu
+  {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(../images/menu.png) no-repeat 3% center;
+    cursor: pointer;
+  }
+  #nav .menu
+  {
+    overflow: hidden;
+    margin: 0;
+    height: 0;
+  }
+  #nav .menu.open
+  {
+    height: auto;
+  }
+  #nav .menu li
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}

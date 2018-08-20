@@ -1,0 +1,247 @@
+.testing-width {
+    max-width: 98rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.testing-bckground {
+    background-color: #f9f9f9;
+}
+
+.testing-wave-print {
+    font-size: 1.8rem;
+    color: #7c7c7c;
+    position: relative;
+    top: -0.5rem;
+}
+
+img.ui.image.testing-wave-printer {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse;
+  }
+
+th { 
+    color: white; 
+    font-weight: bold;
+  }
+
+td, th { 
+    padding: 1.3rem; 
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    text-align: left;
+    vertical-align: top;
+  }
+
+.th-green {
+    color: #adbb0c;
+    font-size: 2.4rem;
+    border-top: none;
+    text-align: center;
+}
+
+.th-green:last-of-type {
+    border-right: none;
+}
+
+.th-orange {
+    color: #ff801a;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.table .orange-brd-top {
+    border-top: 2px solid #ff801a;
+    border-left: 2px solid #ff801a;
+    border-right: 2px solid #ff801a;
+}
+
+.table .orange-brd-mid {
+    border-left: 2px solid #ff801a;
+    border-right: 2px solid #ff801a;
+}
+
+.table .wave.orange-brd-mid {
+    border-left: 2px solid #ff801a;
+    border-right: 2px solid #ff801a;
+}
+
+.table .wave.orange-brd-btm {
+    border-bottom: 2px solid #ff801a;
+    border-left: 2px solid #ff801a;
+    border-right: 2px solid #ff801a;
+}
+
+.workout-grey-border {
+    border-bottom: none;
+    border-left: none;
+    font-size: 1.1rem;
+}
+
+span.rotate-sign {
+    display: inline-block;
+    transform: rotate(270deg);
+    color: #c2c2c2;
+    font-size: 3.5rem;
+    position: relative;
+    right: 10rem;
+}
+
+td.guilt-sign {
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap; 
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+img.shake {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 1.3rem;
+}
+
+.table {
+    border: none;
+    font-size: 1.3rem;
+    color: #7c7c7c;
+}
+
+.table th td {
+    vertical-align: top;
+}
+
+.table tr td, .table tr th {
+    border-left: none;
+    max-width: 1.1rem;
+    word-wrap: break-word;
+}
+
+.table tr td:nth-child(1), .table tr th:nth-child(1) {
+    border-bottom: none;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    background-image: url("../images/pattern_background.png");
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table .wave {
+    background-image: url("../images/pattern_background.png");
+    text-align: center;
+    border-left: 2px solid #d6d6d6;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+.table .testing-wave {
+    display: inline-block;
+    float: center;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.wave.no-bottom {
+    border-bottom: none;
+}
+
+.wave.no-bottom-left {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.wave.no-bottom-right {
+    border-bottom: none;
+    border-left: none;
+    vertical-align: middle;
+}
+
+.wave.no-left {
+    border-left: none;
+}
+
+img.smiley {
+    margin-right: 2rem;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+
+@media only screen and (min-width: 48em) and (max-width: 61.2em) 
+{   
+    .table {
+        font-size: 1.3rem;
+    }
+
+    .table tr td, .table tr th {
+        word-wrap: inherit;
+    }
+
+    img.shake {
+        width: 4rem;
+    }
+
+    .th-green {
+        font-size: 1.6rem;
+    }
+    
+    .th-orange {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 48em)
+{   
+    .table {
+        font-size: 1rem;
+    }
+
+    .table tr td, .table tr th {
+        word-wrap: inherit;
+    }
+
+    img.shake {
+        display: none;
+    }
+
+    .th-green {
+        font-size: 1.2rem;
+    }
+    
+    .th-orange {
+        font-size: 1.2rem;
+    }
+
+    img.smiley {
+        margin-right: 1rem;
+        width: 2rem;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    span.rotate-sign {
+        font-size: 1.5rem;
+        position: relative;
+        right: 4rem;
+    }
+
+    .testing-wave-print {
+        font-size: 1.2rem;
+    }
+    
+    img.testing-wave-printer {
+        position: relative;
+        left: 0.5rem;
+    }
+}
